@@ -84,3 +84,7 @@ table,tr,td,th{
 	padding-left:10px;
 	padding-top:10px;
 }
+p{
+	font-size:80px;
+	transform:translateY(-70px);
+}
