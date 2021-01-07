@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>DVD Check</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="divleft">
+<form name="myForm">
+		<label id="l1">Code EAN</label><br>
+		<input type="text" name="numero" id="u_numero"><br>
+		<input type="text" name="num" id="u_num" style="display:none">
+</form>
+	<script type="text/javascript" src="_check.js" charset="iso-8859-1"></script>
+	</div>
+<!--<div id="contenu"></div>-->
+	<div id="contenu2"></div>
+<script>
+	document.querySelector('#u_numero').addEventListener('keypress',function(e){
+	if(e.key==='Enter'){myCheck3()}
+	});
+</script>
+</body>
+
+</html>
