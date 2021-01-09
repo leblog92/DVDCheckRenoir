@@ -34,6 +34,12 @@
 	tot++;
 	document.getElementById("nbco").innerHTML="&#8707; fond : "+ddf+"<br>&#8708; fond : "+daf+"<br>&#8721; scan : "+tot;
 	}
+	function anyth(){
+	var a3=document.getElementById("u_numero").value;
+	var la3=a3.length;
+	if(la3>=13){myCheck3();document.getElementById("u_numero").value="";}
+	}
+	setInterval(anyth,500);
 </script>
 </body>
 </html>
