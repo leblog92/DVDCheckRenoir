@@ -1,6 +1,12 @@
 html{
 	height:100%;
 }
+#cats{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	text-align:right;
+}
 body{
 	font-family:consolas;
 	margin:10px;
